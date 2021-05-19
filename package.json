@@ -1,0 +1,26 @@
+{
+  "name": "wcc_simpleapi",
+  "version": "1.0.0",
+  "description": "API desenvolvida na trilha Node.js do Women Can Code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a-bemporad/WCC_SampleAPI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/a-bemporad/WCC_SampleAPI/issues"
+  },
+  "homepage": "https://github.com/a-bemporad/WCC_SampleAPI#readme",
+  "dependencies": {
+    "consign": "^0.1.6",
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5"
+  }
+}
