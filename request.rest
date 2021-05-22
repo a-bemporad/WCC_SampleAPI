@@ -6,10 +6,12 @@ POST http://localhost:3000/appointments/
 Content-Type: application/json
 
 {
-    "client_name": "Karlaa",
-    "service": "Corte de cabelo",
+    "client_name": "M",
+    "service": "Manicure",
     "status": "agendado",
-    "service_date": "2021-06-05"
+    "service_date": "2020-06-05"
 }
 
+###
+GET http://localhost:3000/appointments/2
 ###
